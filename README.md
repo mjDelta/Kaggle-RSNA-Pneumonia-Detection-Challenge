@@ -18,4 +18,8 @@ So, the advantages of Dense Block(more direct connections) is:</br>
   * More efficiency useage of feature maps
   * Easier gradient update, especially for gradient vanishing problem.
   * #### 2.2 Semantic Segmentation Network
+  As for semantic segmentation, I adopted Unet as the basic framework. Tricks added is followed:
+  * [CoordConvolution Keras Implementation Version](https://github.com/titu1994/keras-coordconv) of Paper **[An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution]**(https://arxiv.org/abs/1807.03247) 
+  * ResBlock
+  * [ASPP( Atrous Spatial Pyramid Pooling)](https://arxiv.org/abs/1606.00915)
   
